@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHONE-STORE</title>
+    <!-- Jenis Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- script icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"><span>phone</span> store</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <!-- <a href="#catalog">Catalog</a> -->
+        <a href="#promos">Catalog</a>
+        <a href="#contact">Contact Me</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="burger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+    </nav>
+    <!-- Navbar End-->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Quality at The Best <span>Price</span>.</h1>
+        <p style="text-align: justify">
+          With advances in technology, today's cellphones not only facilitate
+          communication. However, it also becomes a control center for digital
+          activities and allows quick access to information and entertainment at
+          the user's fingertips.
+        </p>
+        <a href="#catalog" class="cta">Buy Now</a>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About section start -->
+    <section id="about" class="about">
+      <h2><span>About</span> Me</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/iphone.jpg" alt="about me" height="650" width="500" />
+        </div>
+        <div class="content">
+          <h3>Why did you choose our store ?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro
+            alias consequuntur
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            quasi,
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Catalog section start -->
+    <!-- <section id="catalog" class="catalog">
+      <h2><span>Catalog</span></h2>
+      <p>Daftar Smartphone di <span>phone</span> store</p>
+      <div class="row">
+        <div class="catalog-card">
+          <img src="img/catalog/vivo-y22.jpg" alt="vivo-y22" class="catalog-card-img" />
+          <h3 class="catalog-card-title">- Vivo Y22 -</h3>
+          <p class="catalog-card-price">IDR 1.500.000</p>
+        </div>
+
+        <div class="catalog-card">
+          <img src="img/catalog/vivo-y100.jpg" alt="vivo-y100" class="catalog-card-img" />
+          <h3 class="catalog-card-title">- Vivo Y100 -</h3>
+          <p class="catalog-card-price">IDR 3.599.000</p>
+        </div>
+
+        <div class="catalog-card">
+          <img src="img/catalog/samsung-galaxy-a51.jpg" alt="samsung-galaxy-a51" class="catalog-card-img" />
+          <h3 class="catalog-card-title">- Samsung Galaxy A51 -</h3>
+          <p class="catalog-card-price">IDR 4.199.000</p>
+        </div>
+
+        <div class="catalog-card">
+          <img src="img/catalog/redmi-note13.jpg" alt="redmi-note13" class="catalog-card-img" />
+          <h3 class="catalog-card-title">- Redmi Note13 -</h3>
+          <p class="catalog-card-price">IDR 2.100.000</p>
+        </div>
+
+        <div class="catalog-card">
+          <img src="img/catalog/oppo-reno6.jpg" alt="oppo-reno6" class="catalog-card-img" />
+          <h3 class="catalog-card-title">- OPPO Reno6 -</h3>
+          <p class="catalog-card-price">IDR 6.999.000</p>
+        </div>
+
+        <div class="catalog-card">
+          <img src="img/catalog/realme-note-60.jpg" alt="realme-note60" class="catalog-card-img" />
+          <h3 class="catalog-card-title">- Realme Note 60 -</h3>
+          <p class="catalog-card-price">IDR 1.599.000</p>
+        </div>
+      </div>
+    </section> -->
+    <!-- Catalog section end -->
+
+    <!-- Promo section start -->
+    <section class="promos" id="promos">
+      <h2>Catalog</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis rem
+        voluptas nam, sunt natus dolores!
+      </p>
+
+      <div class="row">
+        <div class="promo-card">
+          <div class="promo-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="promo-image">
+            <img src="img/promo/vivo-y22.jpg" alt="Promo 1" />
+          </div>
+          <div class="promo-content">
+            <h3>Vivo Y22</h3>
+            <!-- <div class="promo-stars"> -->
+            <!-- <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i> -->
+            <!-- </div> -->
+            <div class="promo-price">
+              IDR 1.500.000 <span>IDR 1.750.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="promo-card">
+          <div class="promo-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="promo-image">
+            <img src="img/promo/vivo-y22.jpg" alt="Promo 1" />
+          </div>
+          <div class="promo-content">
+            <h3>Vivo Y22</h3>
+            <!-- <div class="promo-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div> -->
+            <div class="promo-price">
+              IDR 1.500.000 <span>IDR 1.750.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="promo-card">
+          <div class="promo-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="promo-image">
+            <img src="img/promo/vivo-y22.jpg" alt="Promo 1" />
+          </div>
+          <div class="promo-content">
+            <h3>Vivo Y22</h3>
+            <!-- <div class="promo-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div> -->
+            <div class="promo-price">
+              IDR 1.500.000 <span> IDR 1.750.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="promo-card">
+          <div class="promo-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="promo-image">
+            <img src="img/promo/vivo-y22.jpg" alt="Promo 1" />
+          </div>
+          <div class="promo-content">
+            <h3>Vivo Y22</h3>
+            <!-- <div class="promo-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div> -->
+            <div class="promo-price">
+              IDR 1.500.000 <span> IDR 1.750.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="promo-card">
+          <div class="promo-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="promo-image">
+            <img src="img/promo/vivo-y22.jpg" alt="Promo 1" />
+          </div>
+          <div class="promo-content">
+            <h3>Vivo Y22</h3>
+            <!-- <div class="promo-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div> -->
+            <div class="promo-price">
+              IDR 1.500.000 <span> IDR 1.750.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="promo-card">
+          <div class="promo-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="promo-image">
+            <img src="img/promo/vivo-y22.jpg" alt="Promo 1" />
+          </div>
+          <div class="promo-content">
+            <h3>Vivo Y22</h3>
+            <!-- <div class="promo-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div> -->
+            <div class="promo-price">
+              IDR 1.500.000 <span> IDR 1.750.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="promo-card">
+          <div class="promo-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="promo-image">
+            <img src="img/promo/vivo-y22.jpg" alt="Promo 1" />
+          </div>
+          <div class="promo-content">
+            <h3>Vivo Y22</h3>
+            <!-- <div class="promo-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div> -->
+            <div class="promo-price">
+              IDR 1.500.000 <span> IDR 1.750.000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Promo section end -->
+
+    <!-- Contact section start -->
+    <section id="contact" class="contact">
+      <h2><span>Contact</span> Me</h2>
+      <p>Please contact us at</p>
+
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.770606418461!2d107.22101637370102!3d-6.293849361598273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699da3d75189d9%3A0x426b9d5c3cf9f6e8!2sTambal%20Ban%20Pak%20Uci!5e0!3m2!1sen!2sid!4v1741407027251!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="phone" />
+          </div>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#catalog">Catalog</a>
+        <a href="#contact">Contact Me</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">kelompok1</a>. | &copy; 2024</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Navbar Icon-->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        feather.replace();
+      });
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
